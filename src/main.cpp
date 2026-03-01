@@ -6,8 +6,7 @@ int main() {
     uint64_t num = 19;
     if (checkPrime(num)) {
         std::cout << num << " - prime number\n";
-    }
-    else {
+    } else {
         std::cout << num << " - not prime\n";
     }
     // Проверка метода nPrime
@@ -20,5 +19,7 @@ int main() {
     std::cout << "Sum of prime numbers up to 10: " << sumPrime(10) << std::endl;
 
     // Проверка метода twinPrimes
-    std::cout << "Pairs of twins between 1 and 20: " << twinPrimes(1, 20) << std::endl;
+    std::cout << "Pairs of twins " 
+        << " between 1 and 20: "
+        << twinPrimes(1, 20) << std::endl;
 }
